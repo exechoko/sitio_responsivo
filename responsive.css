@@ -1,0 +1,24 @@
+@media (min-width: 0px) and (max-width: 400 px){
+    #container__home {
+        padding-top: 0vh;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 200 px){
+    #img__home {
+        min-width: 100px;
+        max-height: 130px;
+    }
+}
+
+@media (min-width: 356px) and (max-width: 400 px){
+    #img__home {
+        margin-top: 15vh;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 450 px){
+    #img__home {
+        margin-top: 10vh;
+    }
+}
