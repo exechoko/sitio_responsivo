@@ -1,5 +1,5 @@
 .home {
-    height: 840px;
+    height: 900px;
     background-image: url(bg_hero_1.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,4 +16,28 @@
 #img__home {
     max-height: 500px;
     min-width: 170px;
+}
+
+.navbar-floating {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#btn-nav {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 20px;
+    background-color: rgb(45, 45, 187);
+    color: white;
+    border-radius: 20px;
+}
+
+#btn-nav:hover {
+    box-shadow: 0 4px 16px 1px darkblue;
 }

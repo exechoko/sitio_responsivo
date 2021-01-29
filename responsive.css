@@ -4,9 +4,9 @@
     }
 }
 
-@media (min-width: 0px) and (max-width: 200 px){
+@media (min-width: 100.1px) and (max-width: 200 px){
     #img__home {
-        min-width: 100px;
+        min-width: 50px;
         max-height: 130px;
     }
 }
@@ -20,5 +20,21 @@
 @media (min-width: 400px) and (max-width: 450 px){
     #img__home {
         margin-top: 10vh;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 400 px){
+    #container__home {
+        padding-top: 10vh;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 160.1px){
+    .navband-brand{
+        font-size: 15px;
+    }
+    
+    #img__home {
+        max-height: 130px;
     }
 }
